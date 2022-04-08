@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Подать заявку</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<style type="text/css">
+		@font-face{
+			font-family: abc;
+			src: url(20976.ttf);
+		}
+		.a{
+			text-decoration: none;
+			font-family: abc;
+			font-weight: bold;
+			color: #715B0B;
+		}
+		.a:hover{
+			text-decoration: underline;
+			color: #715B0B;
+		}
+		.color1{
+			background-color: #E5DDC0;
+		}
+		.color2{
+			background-color: #F8CF3E;
+		}
+		.color3{
+			background-color: #FFC187;
+			transition-duration: 0.5s;
+		}
+		.color3:hover{
+			background-color: #E4AB75;
+		}
+		.color4{
+			background-color: #F8CF3E;
+		}
+
+		textarea{
+			border-style: none;
+			border-radius: 10px;
+			height: 100px;
+			border: 3px solid #937F3A;
+		}
+
+		button{
+			border-style: none;
+			border-radius: 10px;
+			height: 40px;
+			width: 290px;
+			border: 3px solid #937F3A;
+			margin-left: 270px;
+			margin-top: 20px;
+			background-color: white;
+			transition-duration: 0.5s;
+		}
+		button:hover{
+			background-color: lightgrey;
+		}
+	</style>
+</head>
+<body style="font-family: abc; font-weight: bold; color: #715B0B;">
+
+
+	<div class="col color1 d-flex" style="height: 120px;">
+
+		<div class="color2 position-absolute d-flex fs-5 rounded-pill px-3" style="width: 200px; height: 40px; top: 40px;">
+			<a href="help.html" class="a">Тех. поддержка</a>
+		</div>
+
+		<a href="index.html" class="col-2 mx-auto" style="height: 120px;">
+			<img src="lapa.jpg" class="col mx-auto mt-1" style="height: 110px;">
+		</a>
+		
+		<div class="color2 position-absolute end-0 d-flex fs-5 rounded-pill px-3" style="width: 180px; height: 40px; top: 40px;">
+			<p>Фамилия Имя</p>
+		</div>
+	</div>
+
+
+	<div class="col-8 color1 px-3 pt-3 mx-auto mt-2" style="height: 520px">
+		<div class="d-flex">
+			<div>
+				<textarea style="margin-left: 100px;" placeholder="Задачи(а)" cols="70"></textarea>
+				<textarea style="margin-left: 100px;" placeholder="Опишите питомца(характер, порода, корм и т.п.)" cols="70"></textarea>
+				<textarea style="margin-left: 100px;" placeholder="Информация о дате, времени и месте встречи" cols="70"></textarea>
+				<textarea style="margin-left: 100px;" placeholder="Вознаграждение" cols="70"></textarea>
+				
+			</div>
+		</div>
+
+		<button><h3 style="color: #715B0B;">Подать заявку</h3></button>
+
+	</div>	
+
+
+</body>
+</html>
